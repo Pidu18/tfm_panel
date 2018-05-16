@@ -1,0 +1,292 @@
+@font-face { font-family: so; src: url('soopafre.ttf'); } 
+body{
+	margin: 0 auto;
+	background-color: #383838;
+}
+header{
+	width: 100%;
+	height: 37px;
+	box-shadow: 2px 2px 10px gray;
+	text-shadow: 2px 2px 5px black;
+}
+header a{
+	color: #595959;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 2px;
+	font-family: so;
+}
+header img{
+	padding-left: 5px;
+	height: 17px;
+	width: 27px;
+}
+
+.left{
+    padding-top: 20px;  
+	height: 100%;
+	width: 150px;
+	box-shadow: 2px 2px 10px #545454;
+}
+.lefts{
+    padding-top: 10px;  
+}
+
+.left a{
+	height: 20px;
+	margin: 10px 10px 10px;
+	font-size: 18px;
+	font-family: so;
+	color: #595959;
+	border-bottom: none;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px black;
+
+}
+
+.right{
+    position: relative;
+    left: 280px;
+    bottom: 170px;
+	height: 500px;
+	width: 930px;
+	box-shadow: 2px 2px 10px black;
+}
+
+.op_name{
+	padding-top: 40px;
+	font-weight: bold;
+	font-family: so;
+	font-size: 25px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.op_email{
+	padding-top: 40px;
+	font-family: so;
+	font-size: 15px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+.op_sex{
+	font-family: so;
+	font-size: 15px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.op_marriage{
+	font-family: so;
+	font-size: 15px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.op_marriage a{
+	color: ;
+}
+
+.op_racing{
+	text-align: center;
+	align-self: center;
+	padding-top: 30px;
+}
+.op_racing table{
+	padding: 10px;
+	text-align: left;
+	align-self: center;
+	border: groove;
+	border-color: gray;
+	box-shadow: 2px 2px 5px black;
+	font-size: 17px;
+	font-family: so;
+	color: gray;
+	text-shadow: 2px 2px 5px black;
+}
+
+.op_racing table tr:hover{
+	background-color:#424242;
+	cursor: context-menu;
+}
+
+.racing_text{
+	font-family: so;
+	font-size: 20px;
+	color: gray;
+	align-self: center;
+	text-align: center;
+}
+
+.ch_pass{
+	padding-top: 60px;
+	font-weight: bold;
+	font-family: so;
+	font-size: 25px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+.ch_pass form{
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.ch_pass form input[type=password]{
+	display: inline-block;
+	margin-top: 10px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: red;
+	padding-left: 5px;
+}
+
+.ch_pass form input[type=submit]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+
+.ch_pass form input[type=submit]:hover{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: yellow;
+	padding-left: 5px;
+}
+
+.ch_pass2{
+	padding-top: 60px;
+	font-family: so;
+	font-size: 18px;
+	color: green;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+form input[type=email]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+.ch_email{
+	padding-top: 80px;
+	font-weight: bold;
+	font-family: so;
+	font-size: 25px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.ch_email2{
+	padding-top: 80px;
+	font-family: so;
+	font-size: 18px;
+	font-weight: normal;
+	color: gray;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+.ch_email form input[type=submit]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+
+.ch_email form input[type=submit]:hover{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: yellow;
+	padding-left: 5px;
+}
+
+.top10{
+	padding-top: 50px;
+	font-weight: normal;
+	font-family: so;
+	font-size: 20px;
+	color: gray;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.top10  table tr:hover{
+	background-color:#424242;
+	cursor: context-menu;
+}
+.t10{
+	padding-top: 60px;
+	font-family: so;
+	font-size: 25px;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+.cr{
+	position: fixed;
+	right: 15px;
+	top: 3px;
+	font-weight: normal;
+	font-family: so;
+	font-size: 20px;
+	text-decoration: none;
+	color: #936700;
+	align-self: center;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}

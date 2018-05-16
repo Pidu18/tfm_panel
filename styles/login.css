@@ -1,0 +1,118 @@
+@font-face { font-family: so; src: url('soopafre.ttf'); } 
+body{
+	margin: 0 auto;
+	background-color: #383838;
+}
+header{
+	text-align: center;
+	margin-top: 70px;
+}
+header a{
+	color: #595959;
+	font-size: 29px;
+	text-decoration: none;
+	padding-left: 2px;
+	font-family: so;
+	text-shadow: 2px 2px 5px black;
+}
+
+form{
+	margin: 0 auto;
+	padding-top: 120px;
+	align-self: center;
+	text-align: center;
+}
+
+form input[type=text]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: red;
+	padding-left: 5px;
+}
+
+form input[type=text]:hover{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+
+form input[type=password]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: red;
+	padding-left: 5px;
+}
+
+form input[type=password]:hover{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: #383838;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+
+form input[type=submit]{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: green;
+	padding-left: 5px;
+}
+
+form input[type=submit]:focus{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: red;
+	padding-left: 5px;
+}
+
+form input[type=submit]:hover{
+	display: inline-block;
+	margin-bottom: 20px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	color: gray;
+	background-color: transparent;
+	font-family: so;
+	border-bottom: groove;
+	border-color: yellow;
+	padding-left: 5px;
+}
