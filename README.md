@@ -1,2 +1,4 @@
-# tfm_panel
-Transformice Panel
+#Demo
+http://panel.kl-pidu.xyz/
+Name: Test
+Pass: Aulamice
